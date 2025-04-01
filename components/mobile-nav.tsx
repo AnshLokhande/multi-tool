@@ -22,7 +22,7 @@ export default function MobileNav() {
       <SheetContent side="right" className="flex flex-col">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-            <span className="text-xl font-bold">ConvertAnything</span>
+            <span className="text-xl font-bold">Quick Convertor</span>
           </Link>
           <Button variant="ghost" size="icon" onClick={() => setOpen(false)}>
             <X className="h-6 w-6" />

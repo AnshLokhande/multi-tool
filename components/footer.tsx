@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start gap-2">
             <Link href="/" className="text-xl font-bold">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                ConvertAnything
+                Quick Convertor
               </span>
             </Link>
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              &copy; {new Date().getFullYear()} ConvertAnything. All rights reserved.
+              &copy; {new Date().getFullYear()} Quick Convertor. All rights reserved.
             </p>
           </div>
 
